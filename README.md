@@ -7,9 +7,11 @@
 
  * Built Huffman Tree providing details about encoding, decoding and frequency of characters in input text file
 
- * Compresses 2.1 MB file to 1.1 MB file
+ * Resulted compression of a sample file of size 2117 KB is 1120 KB
 
  * Used Object Oriented Programming to create Huffman Class containing functions for traversing tree, creating codes, encoding and decoding text and tree etc.
+   
+ * Resulted Decompression of a compressed file of size 1120 KB is 2123 KB
 
 # How to run this project?
 
