@@ -4,17 +4,9 @@ A C++ compression and decompression program based on Huffman Coding.
 # Introduction
 This project is to design compression and decompression programs based on Huffman Coding. The idea of Huffman Coding is to minimize the weighted expected length of the code by means of assigning shorter codes to frequently-used characters and longer codes to seldom-used code.
 
-# Implementation Details
-The programs can compress and decompress text file consisting of 128 ASCII characters.
-
-## Compression
-
-Open input file, count and store the frequencies of different characters;
-Construct Priority Queue and then Huffman Tree;
-Calculate Huffman Encode Table;
-Encode the file, store Huffman Encode Table and encoded to the desired file.
-
-## Decompression
-
-Open file, recreate Huffman Tree based on Huffman Encode Table;
-Decode the file based on the tree and store it to the desired file.
+# How to run this project?
+To run this project you need to create an executable file. You can follow the steps given below:
+1. For compressing:
+   <img width="453" alt="image" src="https://github.com/HopeToLearn/Text-Compressor-Project/assets/115106831/9533d1ca-c38e-4420-a394-91baf85606f8">
+   
+2. For decompressing :
