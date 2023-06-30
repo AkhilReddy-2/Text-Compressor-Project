@@ -1,4 +1,4 @@
- //Header Guards to prevent header files from being included multiple times
+
 #ifndef HUFFMAN_HPP
 #define HUFFMAN_HPP
 #include <string>
