@@ -6,7 +6,8 @@ This project is to design compression and decompression programs based on Huffma
 
 # How to run this project?
 To run this project you need to create an executable file. You can follow the steps given below:
-1. For compressing:
+1. For compressing:__
+   
    <img width="453" alt="image" src="https://github.com/HopeToLearn/Text-Compressor-Project/assets/115106831/9533d1ca-c38e-4420-a394-91baf85606f8">
    
-2. For decompressing :
+3. For decompressing :
