@@ -245,10 +245,22 @@ int main(int argc, char* argv[]) {
     if(x==1){
         f.compress();
         cout << "Compressed successfully" << endl;
+	FILE* fp = fopen(argv[1], "r");
+        fseek(fp, 0L, SEEK_END);
+        cout<<"The size of the input file is "<<ftell(fp)<<endl;
+        fp = fopen(argv[2], "r");
+        fseek(fp, 0L, SEEK_END);
+        cout<<"The size of the compressed file is "<<ftell(fp)<<endl;
     }
     else if(x==2){
         f.decompress();
         cout << "Decompressed successfully" << endl;
+	FILE* fp = fopen(argv[1], "r");
+        fseek(fp, 0L, SEEK_END);
+        cout<<"The size of the input file is "<<ftell(fp)<<endl;
+        fp = fopen(argv[2], "r");
+        fseek(fp, 0L, SEEK_END);
+        cout<<"The size of the compressed file is "<<ftell(fp)<<endl;
     }
     return 0;
 }
